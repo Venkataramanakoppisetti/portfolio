@@ -1,0 +1,30 @@
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+
+  padding-top: 10px;
+  padding-bottom: 50px;
+  background: var(--bg-gray, #f9faff);
+  background-size: cover;
+  background-image: url('https://img.freepik.com/free-photo/abstract-textured-backgound_1258-30436.jpg?w=740&t=st=1704729063~exp=1704729663~hmac=9d6a1c53cde821a127250f0bef6a0cd6d6aae91a7efd8a2c0fde3997ed8a7517');
+}
+
+.projects-heading {
+  color: var(--font-high-emphasis, #09d5e4);
+  text-align: center;
+
+  /* title / h2 */
+  font-family: Playfair Display;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 72px; /* 150% */
+}
+
+.projects-list {
+  display: flex;
+  flex-direction: column;
+}
